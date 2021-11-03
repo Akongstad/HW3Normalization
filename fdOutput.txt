@@ -1,0 +1,210 @@
+          fd          |   validity    
+----------------------+---------------
+ Rentals: PID --> HID | does not hold
+(1 row)
+
+         fd          | validity 
+---------------------+----------
+ Rentals: PID --> PN | MAY HOLD
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: PID --> S | does not hold
+(1 row)
+
+         fd          |   validity    
+---------------------+---------------
+ Rentals: PID --> HS | does not hold
+(1 row)
+
+         fd          |   validity    
+---------------------+---------------
+ Rentals: PID --> HZ | does not hold
+(1 row)
+
+         fd          |   validity    
+---------------------+---------------
+ Rentals: PID --> HC | does not hold
+(1 row)
+
+          fd          |   validity    
+----------------------+---------------
+ Rentals: HID --> PID | does not hold
+(1 row)
+
+         fd          |   validity    
+---------------------+---------------
+ Rentals: HID --> PN | does not hold
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: HID --> S | does not hold
+(1 row)
+
+         fd          | validity 
+---------------------+----------
+ Rentals: HID --> HS | MAY HOLD
+(1 row)
+
+         fd          | validity 
+---------------------+----------
+ Rentals: HID --> HZ | MAY HOLD
+(1 row)
+
+         fd          | validity 
+---------------------+----------
+ Rentals: HID --> HC | MAY HOLD
+(1 row)
+
+         fd          |   validity    
+---------------------+---------------
+ Rentals: PN --> PID | does not hold
+(1 row)
+
+         fd          |   validity    
+---------------------+---------------
+ Rentals: PN --> HID | does not hold
+(1 row)
+
+        fd         |   validity    
+-------------------+---------------
+ Rentals: PN --> S | does not hold
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: PN --> HS | does not hold
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: PN --> HZ | does not hold
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: PN --> HC | does not hold
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: S --> PID | does not hold
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: S --> HID | does not hold
+(1 row)
+
+        fd         |   validity    
+-------------------+---------------
+ Rentals: S --> PN | does not hold
+(1 row)
+
+        fd         |   validity    
+-------------------+---------------
+ Rentals: S --> HS | does not hold
+(1 row)
+
+        fd         |   validity    
+-------------------+---------------
+ Rentals: S --> HZ | does not hold
+(1 row)
+
+        fd         |   validity    
+-------------------+---------------
+ Rentals: S --> HC | does not hold
+(1 row)
+
+         fd          |   validity    
+---------------------+---------------
+ Rentals: HS --> PID | does not hold
+(1 row)
+
+         fd          |   validity    
+---------------------+---------------
+ Rentals: HS --> HID | does not hold
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: HS --> PN | does not hold
+(1 row)
+
+        fd         |   validity    
+-------------------+---------------
+ Rentals: HS --> S | does not hold
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: HS --> HZ | does not hold
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: HS --> HC | does not hold
+(1 row)
+
+         fd          |   validity    
+---------------------+---------------
+ Rentals: HZ --> PID | does not hold
+(1 row)
+
+         fd          |   validity    
+---------------------+---------------
+ Rentals: HZ --> HID | does not hold
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: HZ --> PN | does not hold
+(1 row)
+
+        fd         |   validity    
+-------------------+---------------
+ Rentals: HZ --> S | does not hold
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: HZ --> HS | does not hold
+(1 row)
+
+         fd         | validity 
+--------------------+----------
+ Rentals: HZ --> HC | MAY HOLD
+(1 row)
+
+         fd          |   validity    
+---------------------+---------------
+ Rentals: HC --> PID | does not hold
+(1 row)
+
+         fd          |   validity    
+---------------------+---------------
+ Rentals: HC --> HID | does not hold
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: HC --> PN | does not hold
+(1 row)
+
+        fd         |   validity    
+-------------------+---------------
+ Rentals: HC --> S | does not hold
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: HC --> HS | does not hold
+(1 row)
+
+         fd         |   validity    
+--------------------+---------------
+ Rentals: HC --> HZ | does not hold
+(1 row)
+
