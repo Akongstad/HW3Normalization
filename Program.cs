@@ -7,7 +7,6 @@ namespace HW3Normalization
          
         static void Main(string[] args)
         {
-            var SQLquery = "Select";
             var R = new string[]{"PID","HID", "PN", "S", "HS", "HZ", "HC"};
             for(int i = 0; i < R.Length;i++){
                 for(int j = 0; j < R.Length;j++){
